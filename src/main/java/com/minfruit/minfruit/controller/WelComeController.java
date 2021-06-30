@@ -18,8 +18,4 @@ public class WelComeController {
         return "hello i am " + name;
     }
 
-    @GetMapping("/test")
-    public String test(){
-        return "test";
-    }
 }
