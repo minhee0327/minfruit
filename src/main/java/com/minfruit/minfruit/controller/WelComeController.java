@@ -17,4 +17,9 @@ public class WelComeController {
     public String name(@PathVariable String name){
         return "hello i am " + name;
     }
+
+    @GetMapping("/test")
+    public String test(){
+        return "test";
+    }
 }
