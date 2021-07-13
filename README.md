@@ -6,6 +6,6 @@
 - 21.07.13 : spring-boot-actuator 추가
   - 시스템 health(상태정보), metrics(계량정보) 확인하고, 경로 설정 test
       - basic-path: /monitoring
-      - 시스템 상태정보 확인시: minfruit.com/monitoring/health
-      - 시스템 metircs정보 확인시: minfruit.com/monitoring/metrics 
+      - 시스템 상태정보 확인시: http://localhost:8080/monitoring/health
+      - 시스템 metircs정보 확인시: http://localhost:8080/monitoring/metrics
   - 참조: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#actuator
